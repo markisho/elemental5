@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(fonts/RobotoCondensed.woff) format('woff');
+}
+
+
+*
+{
+    font-family: "Roboto Condensed";
+}
+
+body
+{
+    background: url( ../Imgs/MasterPage/Fondo.jpg ) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 10px;
+}
+
+.footer
+{
+    background-color: #181818;
+    color: #ffffff;
+}
+
+.cuerpo-suelto
+{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.LogoCabecera
+{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    line-height: 1;
+    width: 47px;
+    margin-right: 10px;
+}
+
+.ultimos-publicaciones-titulo
+{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold !important;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 1px !important;
+}
+
+
+.post-reciente
+{
+    color: #ffffff;
+    background-image: url('../Imgs/inicio/transparencia-oscura.png');
+    padding: 20px;
+}
+
+.navbar-form .form-control
+    {
+        margin-right: 5px;
+    }
+
+
+.img-profile
+{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+.info-profile
+{
+    position: inherit;
+    margin-top: -30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.info-profile h3
+{
+    margin-top: 0;
+}
